@@ -41,9 +41,9 @@ export default function App() {
   };
 
   const onDeleteContact = (id) => {
-    setContacts((contacts) => {
-      contacts.filter((contact) => contact.id !== id);
-    });
+    setContacts((contacts) => 
+      contacts.filter((contact) => contact.id !== id)
+    );
   };
 
   const filterContacts = () => {
